@@ -18,7 +18,8 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def Volume(x, y, z):
+    return x * y * z
 ###############################################################################
 # TODO: 2. (2 pts)
 #
@@ -45,3 +46,5 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+Answer= Volume(3,4,5)
+print(Answer)
